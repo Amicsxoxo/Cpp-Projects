@@ -9,7 +9,7 @@ int main(){
 
   std::cout << "!****************** CALCULATOR ******************!\n";
 
-  std::cout << "Enter either (+ - * /)";
+  std::cout << "Enter either (+ - * /): ";
   std::cin >> op;
 
   std::cout << "Enter Number 1: ";
@@ -46,7 +46,7 @@ int main(){
   }
 
 
-  std::cout << "!****************************************************!";
+  std::cout << "\n!****************************************************!";
 
   return 0;
 }
